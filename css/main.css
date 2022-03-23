@@ -1,0 +1,180 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width:  1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: url('../img/header-bg.jpg') no-repeat center;
+	padding-top: 57px;
+	color: #fff;
+}
+
+.header a {
+	color: #fff;
+}
+
+.nav {
+	display: flex;
+	align-items: center;
+}
+.menu {
+	display: flex;
+}
+
+
+.menu li a {
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+}
+
+.menu li {
+	margin-right: 40px;
+}
+
+.nav a:hover {
+	color: 	#a1420b;
+}
+
+
+.tel {
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+
+.logo {
+	margin-right: 69px;
+}
+
+.btn {
+	text-decoration: none;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+	padding-bottom: 322px;
+}
+
+
+.offer h1{
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em	
+}
+
+.offer p {
+	font-size: 30px;
+	line-height: 45px;
+}
+
+.btn{
+	padding: 20px 50px;
+	width: 238px;
+	height: 57px;
+	text-transform: uppercase;
+	border: 1px solid #FFFFFF;
+	font-size: 17px;
+	letter-spacing: 0.1em;
+}
+
+.btn:hover {
+	border: 1px solid #a1420b;
+	color: #a1420b;
+}
+.about .container {
+	width:  1170px;
+	margin: 0 auto;
+	padding-top: 113px;
+}
+
+.aboutH {
+	font-size: 50px;
+	line-height: 75px;
+	text-transform: uppercase;
+}
+
+.mainContent {
+	display: flex;
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	padding-top: 58px;
+}
+
+.mainContent p {
+	padding-right: 36px;
+}
+
+.mainContentSecond{
+	width: 564px;
+}
+
+.mainContentThird {
+	width: 564px;
+	padding-bottom: 50px;
+}
+
+.mainContentHeader {
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+
+.headerThird {
+	font-family: 'Anton', sans-serif;
+	font-size: 25px;
+	line-height: 38px;
+	text-transform: uppercase;	
+}
+
+.mainContentImages {
+	padding-top: 25px;
+}
+
+.footer .container {
+	padding-top: 114px;
+	width:  1170px;
+	margin: 0 auto;
+}
+
+.footer .container span {	
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
+	color: #000000;
+	padding-right: 55px;
+	padding-bottom: 80px;
+}
